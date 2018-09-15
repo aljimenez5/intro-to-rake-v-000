@@ -8,6 +8,7 @@ namespace :greeting do
   task :hola
     puts "hola de Rake!"
   end
+  
 end
 
 task :environment do
