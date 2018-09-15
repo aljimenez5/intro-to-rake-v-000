@@ -2,9 +2,10 @@ namespace :greeting
   desc 'outputs hello to the terminal'
   task :hello do
     puts "hello from Rake!"
-    
+  end
   task :hola
     puts "hola de Rake!"
+  end
 end
 
 task :environment do
